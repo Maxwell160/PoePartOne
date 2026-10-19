@@ -56,7 +56,7 @@ class Registration { //start of class
             this.passWord = password;
             this.cellPhone = cellphone;
 
-            return (" successfull"); //add comment 
+            return (" Registration successfull"); //add comment 
         } else {
             return ("Registration was unsuccessful");
 

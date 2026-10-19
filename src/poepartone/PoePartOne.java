@@ -51,10 +51,37 @@ public class PoePartOne {
         String passWord = scan.nextLine();
         
         System.out.println(register.returnLoginStatus(register.loginUser(userName, passWord)));
+        String username = null;
+        
+        String loginResult = register.returnLoginStatus(register.loginUser(username, passWord));
+        System.out.println(loginResult);
+        
+        if (loginResult.contains("successful")){
+            Message msg = new Message();
+            Scanner menuScan = new Scanner(System.in);
+            int option;
+            
+            do{
+                System.out.println("=====Select any of the options below=====");
+                System.out.println("Option 1 -> Send Message");
+                System.out.println("Option 2 -> Coming soon");
+                System.out.println("Option 3 -> Exit");
+                option = menuScan.nextInt();
+                
+                switch (option){
+                    case 1 -> msg.msg_sendingMessages();
+                    case 2 -> System.out.println("Coming soon");
+                    case 3 -> System.out.println("Thank you for using app");
+                    default -> System.out.println("Invalid option");
+                            }
+            }while (option != 3);
+    
+        } 
+                
         
         
         
-        }
+    }
         
 
         
