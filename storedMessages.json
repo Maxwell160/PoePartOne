@@ -1,8 +1,16 @@
 [
   {
-    "messageID": "1541119537",
-    "messageHash": "15:1:HELLOMAX",
+    "messageID": "2108746616",
+    "messageNumber": 1,
+    "messageHash": "21:1:HEYHEY",
     "recipient": "+27836530530",
-    "message": "hello max"
+    "message": "hey"
+  },
+  {
+    "messageID": "0987470644",
+    "messageNumber": 3,
+    "messageHash": "09:3:DIWAKAE",
+    "recipient": "+27836530530",
+    "message": "diwa kae"
   }
 ]
