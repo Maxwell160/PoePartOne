@@ -4,9 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Student/Documents/NetBeansProjects/PoePartOne/src/poepartone/Login.java</file>
-            <file>file:/C:/Users/Student/Documents/NetBeansProjects/PoePartOne/src/poepartone/Message.java</file>
+            <file>file:/C:/Users/Student/Documents/NetBeansProjects/PoePartOne/src/com/mycompany/chatapp/Message.java</file>
             <file>file:/C:/Users/Student/Documents/NetBeansProjects/PoePartOne/src/poepartone/PoePartOne.java</file>
-            <file>file:/C:/Users/Student/Documents/NetBeansProjects/PoePartOne/src/poepartone/poepart2.java</file>
+            <file>file:/C:/Users/Student/Documents/NetBeansProjects/PoePartOne/src/poepart2/PoePart2.java</file>
+            <file>file:/C:/Users/Student/Documents/NetBeansProjects/PoePartOne/src/poepartone/QuickChat.java</file>
         </group>
     </open-files>
 </project-private>

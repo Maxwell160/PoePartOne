@@ -5,6 +5,7 @@
 package poepartone;
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -71,9 +72,21 @@ public class PoePartOne {
                 switch (option){
                     case 1 -> msg.msg_sendingMessages();
                     case 2 -> System.out.println("Coming soon");
-                    case 3 -> System.out.println("Thank you for using app");
-                    default -> System.out.println("Invalid option");
-                            }
+                    case 3 ->
+                        JOptionPane.showMessageDialogue(null, "Good bye");
+
+                    default -> 
+                        JOptionPane.showMessageDialogue(null, "Invalid option!!", "Error", JOptionPane.ERROR_MESSAGE);
+                        
+                            } catch(NumberFormatException e){
+                                    
+                                    JOptionPane.showMessageDialogue(null, "Please enter a valid number", "Input Error", JOptionPane.WARNING_MESSAGE);
+                                    
+                                    
+                                    }
+                
+            
+                
             }while (option != 3);
     
         } 

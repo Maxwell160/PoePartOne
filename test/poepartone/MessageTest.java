@@ -3,20 +3,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package com.mycompany.chatapp;
+package poepartone;
 
+import com.mycompany.chatapp.Message;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import static org.testng.Assert.assertTrue;
+import org.testng.annotations.Test;
 
 public class MessageTest {
 
     private Message msg1;
     private Message msg2;
 
-    @BeforeEach
+    @Test 
     void setUp() {
+        assertEquals(
+        
         Message.clearAll();
 
         msg1 = new Message(
@@ -32,6 +37,7 @@ public class MessageTest {
                 "08575975889",
                 "Hi MKhabela, did you receive the payment?"
         );
+    )
     }
 
     @Test
@@ -135,7 +141,7 @@ public class MessageTest {
     }
 
 
-    private void assertEquals(List<String> of, List<String> returnAllMessageHashes) {
+    private void assertEquals(String of, String returnAllMessageHashes) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

@@ -6,8 +6,8 @@
 
 package poepart2;
 
+import com.mycompany.chatapp.Message;
 import java.util.Scanner;
-import poepartone.Message;
 
 public class PoePart2 {
 
